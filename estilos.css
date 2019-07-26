@@ -1,0 +1,265 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+
+}
+#general {
+	display: flex;
+	align-items: center;
+
+flex-direction: column;
+}
+section{
+	width: 100%;
+
+	
+}
+header {
+display: flex;
+justify-content: center;	
+
+}
+#encabezado {
+	display: flex;
+	justify-content: space-between;
+height: 15vh;
+
+	width: 100%;
+	
+	;
+}
+
+.card{
+
+	width: 18rem;
+}
+
+
+
+.logo{
+	display: inline-flex;
+
+	width: 40%;
+}
+
+.logo img{
+width: 30%;
+
+}
+
+.logo h1 {
+	align-self: center;
+}
+
+.logo span {
+color: black;
+ 	font-weight: 400;
+ 	color: #6c6c6c;
+margin-top: 20px;
+}
+.datos {
+display: inline-flex;
+align-self: center;
+width: 70%;
+height: auto;
+justify-content: flex-end;
+
+}
+
+.datos li {
+	margin-left: 2%;
+	padding: 0.5%;
+	background-color: #F4F4F4;
+	font-size: 1em;
+	height: 100%;
+	width: 20%;
+}
+
+.datos p {
+	margin: 5%;
+}
+li{
+
+	list-style: none;
+}
+
+#nav {
+display: flex;
+justify-content: center;
+;
+
+
+}
+
+
+.nave {
+	display: flex;
+justify-content: space-between;
+
+	width: 100%;
+}
+.items{display: inline-flex;
+		align-self: center;
+	font-weight: bold;
+		list-style: none;
+		height: 100%;
+
+}
+
+.nave li {
+	display: flex;
+	
+ 
+}
+.nave a{
+	text-decoration: none;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    outline: none;
+    color: black;
+ 	font-weight: 400;
+    box-sizing: content-box;
+    color: #6c6c6c;
+   	align-self: center;
+   	padding: 20px;
+}
+.items a:hover {
+background-color: white;
+color: black;
+
+}
+.carousel-item img {
+height: 90vh;
+	
+}
+
+#acerca-de-nosotros{
+	padding-top:3%;
+	display: flex;
+	flex-direction: column;
+	color: black;
+ 	font-weight: 400;
+	font-size: 1.2em;
+	color: #6c6c6c;
+
+}
+
+#acerca-de-nosotros h2 {
+	color: black;
+	align-self: center;
+}
+#acerca-de-nosotros p {
+width: 80%;
+align-self: center;
+text-align: center; 
+
+}
+#chamullo {
+	display: flex;
+
+}
+
+.breadcrumb {
+		width: 30%;
+		margin:5%;
+		flex-direction: column;
+		align-items: center;
+
+}
+
+
+#tarjetas { display: flex }
+
+@media  screen and (min-width: 420px){
+
+  #tarjetas{
+    width: 100%;
+    flex-direction: column }
+  .card { width: 80%; height: 40%}
+}
+
+
+.card {
+
+	margin:1%;
+}
+
+#medicos {
+	display: flex;
+	flex-direction: column;
+	padding-top:3%;
+
+}
+#medicos h2 {
+	align-self: center;
+}
+
+#estudios{
+	padding-top:3%;
+	display: flex;
+	flex-direction: column;
+	height: 20vh;
+}
+
+
+#estudios h2 {
+	align-self: center;
+}
+.col-sm-8 {
+		float: right;
+	width: 70%;
+	
+	font-size: 1em;
+	overflow: auto;
+}
+.list-group{
+	width: 100%;
+}
+.col-sm-4{
+	display: inline-flex;
+	box-sizing: border-box;
+
+	width: 70%;
+}
+.col-sm-4 img{
+	width: 100%;
+	box-sizing: border-box;
+
+}
+
+#ubicacion{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+
+}
+#ubicacion h3{
+	margin: 1em;
+}
+.map{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 95%;
+}
+
+#map{
+	display: flex;
+	flex-direction: column;
+}
+
+.page-footer{
+	background-color: #2196f3 ;
+	width: 100%;
+	color: white
+
+	
+}
+.page-footer a{
+color: white;
+}
+.footer-copyright{
+
+	background-color: rgba(0,0,0,.2);
+}
